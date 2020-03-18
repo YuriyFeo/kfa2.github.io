@@ -9,6 +9,7 @@
 @import url(../blocks/shop-grid/shop-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/video/video.css);
+@import url(../blocks/privacy-policy/privacy-policy.css);
 .page {
     width: 100%;
     background-color: #fff;

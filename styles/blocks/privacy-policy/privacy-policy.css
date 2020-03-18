@@ -1,0 +1,47 @@
+.privacy-policy__title {
+    font-size: 34px;
+    /*font-family: 'GothamPro-Bold', Arial, sans-serif;*/
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 50px;
+    /*padding-top: 34px;*/
+    /*margin: 0 auto;*/
+    margin-bottom: 3px;
+    text-align: left;
+    /*position: absolute;
+    border: red 1px solid;*/
+}
+
+.privacy-policy__subtitle {
+    font-size: 24px;
+    /*font-family: 'GothamPro-Bold', Arial, sans-serif;*/
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 36px;
+    /*padding-top: 34px;*/
+    /*margin: 0 auto;*/
+    margin-bottom: 3px;
+    text-align: left;
+    /*position: absolute;
+    border: red 1px solid;*/
+}
+
+.privacy-policy__content {
+    font-size: 16px;
+    /*font-family: 'GothamPro', Arial, sans-serif;*/
+    font-family: "Gotha", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 25px;
+    /*padding-top: 34px;*/
+    margin-bottom: 3px;
+    text-align: justify;
+    /*position: absolute;
+    border: red 1px solid;*/
+}
+
+.privacy-policy__indents {
+    padding-left: 40px;
+}
