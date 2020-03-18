@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "GothamCond-Bold";
+    src: url("../../fonts/GothamCond-Bold.eot");
+    src: url("../../fonts/GothamCond-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/GothamCond-Bold.otf") format("opentype"), url("../../fonts/GothamCond-Bold.svg") format("svg"), url("../../fonts/GothamCond-Bold.ttf") format("truetype"), url("../../fonts/GothamCond-Bold.woff") format("woff"), url("../../fonts/GothamCond-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}

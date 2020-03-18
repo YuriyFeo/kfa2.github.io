@@ -1,0 +1,147 @@
+.shop-grid__container {
+    display: flex;
+    /*grid-template-columns: 286px 286px 286px;
+    grid-template-rows: 286px 286px;*/
+    grid-gap: 25px;
+    margin: 0 auto 90px;
+    max-width: 908px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop-grid__item {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 286px;
+    height: 286px;
+    margin-top: 25px;
+}
+
+.shop-grid__div {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*----------DNS------------*/
+
+.shop-grid__item_dns_btn {
+    background-image: url(../../../images/shop/dns.jpg);
+    transition: transform .9s ease-in-out;
+}
+
+.shop-grid__item:hover .shop-grid__item_dns_btn {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+/*-----------technopoint-----------*/
+
+.shop-grid__item_technopoint_btn {
+    background-image: url(../../../images/shop/technopoint.jpg);
+    transition: transform .9s ease-in-out;
+}
+
+.shop-grid__item:hover .shop-grid__item_technopoint_btn {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+/*-----------online-tra-----------*/
+
+.shop-grid__item_online-tra_btn {
+    background-image: url(../../../images/shop/online-tra.jpg);
+    transition: transform .9s ease-in-out;
+}
+
+.shop-grid__item:hover .shop-grid__item_online-tra_btn {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+/*----------resistance------------*/
+
+.shop-grid__item_resistance_btn {
+    background-image: url(../../../images/shop/resistance.jpg);
+    transition: transform .9s ease-in-out;
+}
+
+.shop-grid__item:hover .shop-grid__item_resistance_btn {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+/*----------regard------------*/
+
+.shop-grid__item_regard_btn {
+    background-image: url(../../../images/shop/regard.jpg);
+    transition: transform .9s ease-in-out;
+}
+
+.shop-grid__item:hover .shop-grid__item_regard_btn {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+/*----------wildberries------------*/
+
+.shop-grid__item_wildberries_btn {
+    background-image: url(../../../images/shop/wildberries.jpg);
+    transition: transform .9s ease-in-out;
+}
+
+.shop-grid__item:hover .shop-grid__item_wildberries_btn {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+/*
+@media screen and (min-width: 1280px) and (max-width: 1440px) {}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .menu-grid__container {
+        margin: 0 48px 92px;
+    }
+    .menu-grid__item {
+        margin-bottom: 16px;
+        width: calc( (100% - 28px) / 3);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu-grid__container {
+        margin: 0 24px 102px;
+    }
+    .menu-grid__item {
+        margin-bottom: 16px;
+        width: calc( (100% - 16px) / 2);
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .menu-grid__container {
+        margin: 0 16px 64px;
+    }
+    .menu-grid__item {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .menu-grid__container {
+        margin: 0 16px 64px;
+    }
+    .menu-grid__item {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+}

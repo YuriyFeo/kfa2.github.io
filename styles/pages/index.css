@@ -1,0 +1,30 @@
+@import url(../fonts/fonts.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/menu-grid/menu-grid.css);
+@import url(../blocks/shop-grid/shop-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/video/video.css);
+.page {
+    width: 100%;
+    background-color: #fff;
+}
+
+.content-area {
+    max-width: 100%;
+    /*min-width: 320px;*/
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #000;
+}
+
+
+/*
+* {
+    border: red 1px solid;
+}
+*/
