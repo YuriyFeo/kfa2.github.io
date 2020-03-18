@@ -5,3 +5,33 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "GothamPro-Bold";
+    src: url("../../fonts/GothaProBol0.eot");
+    /* IE9 Compat Modes */
+    src: url("../../fonts/GothaProBol0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../fonts/GothaProBol0.otf") format("opentype"), /* Open Type Font */
+    url("../../fonts/GothaProBol0.svg") format("svg"), /* Legacy iOS */
+    url("../../fonts/GothaProBol0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../../fonts/GothaProBol0.woff") format("woff"), /* Modern Browsers */
+    url("../../fonts/GothaProBol0.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothamPro";
+    src: url("../../fonts/GothaProReg.eot");
+    /* IE9 Compat Modes */
+    src: url("../../fonts/GothaProReg.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../fonts/GothaProReg.otf") format("opentype"), /* Open Type Font */
+    url("../../fonts/GothaProReg.svg") format("svg"), /* Legacy iOS */
+    url("../../fonts/GothaProReg.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../../fonts/GothaProReg.woff") format("woff"), /* Modern Browsers */
+    url("../../fonts/GothaProReg.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
