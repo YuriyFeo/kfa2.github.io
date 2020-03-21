@@ -10,6 +10,7 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/privacy-policy/privacy-policy.css);
+@import url(../blocks/update/update.css);
 .page {
     width: 100%;
     background-color: #fff;

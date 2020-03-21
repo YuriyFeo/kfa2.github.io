@@ -1,0 +1,171 @@
+ol {
+    counter-reset: li;
+    /* Инициализируем счетчик */
+    padding: 0;
+    /* Удаляем  установленное по умолчанию левое поле*/
+    list-style: none;
+    /* Отменяем нумерацию установленную по умолчанию */
+    margin: 0 auto;
+}
+
+ol li {
+    position: relative;
+    /* Создаем контекст для позиционирования элементов */
+    margin: 0 0 6px 2em;
+    /* Даем каждому элементу списка отступ слева, что бы освободить пространство для нумерации */
+    padding: 4px 8px;
+    /*border-top: 2px solid #000;*/
+    /*background: #f6f6f6;*/
+}
+
+ol li:before {
+    content: counter(li);
+    /* В качестве данных используем счетчик */
+    counter-increment: li;
+    /* Увеличиваем значение счетчика на 1 */
+    /* Позиционируем и стилизируем цифры */
+    position: absolute;
+    top: -2px;
+    left: -2em;
+    width: 2em;
+    padding: 4px 0;
+    /*border-top: 2px solid #000;*/
+    color: #fff;
+    background: #000;
+    font-weight: normal;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    text-align: center;
+}
+
+.update__title {
+    font-size: 34px;
+    /*font-family: 'GothamPro-Bold', Arial, sans-serif;*/
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 50px;
+    /*padding-top: 34px;*/
+    /*margin: 0 auto;*/
+    margin-bottom: 3px;
+    text-align: left;
+    /*position: absolute;
+    border: red 1px solid;*/
+}
+
+.update__container {
+    display: flex;
+    /*grid-template-columns: 286px 286px 286px;
+    grid-template-rows: 286px 286px;*/
+    grid-gap: 25px;
+    margin: 0 auto 90px;
+    max-width: 908px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.update__subtitle {
+    font-size: 24px;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 30px;
+    /*padding-top: 34px;*/
+    /*margin-bottom: 3px;*/
+    /*position: absolute;
+    border: red 1px solid;*/
+}
+
+.update__subtitle_center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.update__subtitle_center1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.update__subtitle_color {
+    color: white;
+}
+
+.update__content_color {
+    color: #dc8ce5;
+    font-size: 16px;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.update__content {
+    font-size: 16px;
+    /*font-family: 'GothamPro', Arial, sans-serif;*/
+    font-family: "GothamPro", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 25px;
+    /*padding-top: 34px;*/
+    margin-bottom: 3px;
+    text-align: justify;
+    /*position: absolute;
+    border: red 1px solid;*/
+}
+
+.update__indents {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.update__subtitle-bg-first {
+    width: 909px;
+    /*max-height: 112px;*/
+    min-height: 120px;
+    margin: 40px auto 20px;
+    position: relative;
+    background-image: url(../../../images/update__subtitle-bg-first.jpg);
+    /* border: red 1px solid;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.update__subtitle-bg-second {
+    width: 100%;
+    /*max-height: 112px;*/
+    min-height: 85px;
+    margin: 40px auto 0px;
+    position: relative;
+    /*background-image: url(../../../images/update__subtitle-bg-second.jpg);*/
+    /* border: red 1px solid;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dc8ce5;
+}
+
+.update__subtitle-bg-img {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.update__table {
+    width: 100%;
+    border: none;
+    margin: 50px 40px 0;
+    border: none;
+}
+
+.update__table-top {
+    height: 40px;
+    border-top: #dc8ce5 solid 1px;
+    text-align: left;
+}

@@ -13,6 +13,17 @@
     border: red 1px solid;*/
 }
 
+.privacy-policy__container {
+    display: flex;
+    /*grid-template-columns: 286px 286px 286px;
+    grid-template-rows: 286px 286px;*/
+    grid-gap: 25px;
+    margin: 0 auto 90px;
+    max-width: 908px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .privacy-policy__subtitle {
     font-size: 24px;
     /*font-family: 'GothamPro-Bold', Arial, sans-serif;*/
@@ -31,7 +42,7 @@
 .privacy-policy__content {
     font-size: 16px;
     /*font-family: 'GothamPro', Arial, sans-serif;*/
-    font-family: "Gotha", Arial, sans-serif;
+    font-family: "GothamPro", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     line-height: 25px;
