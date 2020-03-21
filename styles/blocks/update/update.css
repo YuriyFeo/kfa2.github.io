@@ -95,11 +95,12 @@ ol li:before {
 
 .update__content_color {
     color: #dc8ce5;
-    font-size: 16px;
+    font-size: 16git px;
     font-family: "GothamPro-Bold", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     line-height: 30px;
+    white-space: nowrap;
 }
 
 .update__content {
@@ -161,11 +162,16 @@ ol li:before {
     width: 100%;
     border: none;
     margin: 50px 40px 0;
-    border: none;
+    border-collapse: collapse;
+}
+
+.update__table-border {
+    height: 40px;
+    border-top: #dc8ce5 solid 1px;
+    text-align: left;
 }
 
 .update__table-top {
     height: 40px;
-    border-top: #dc8ce5 solid 1px;
     text-align: left;
 }
