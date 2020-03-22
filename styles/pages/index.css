@@ -1,13 +1,9 @@
 @import url(../fonts/fonts.css);
-@import url(../blocks/comments/comments.css);
-@import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/menu-grid/menu-grid.css);
 @import url(../blocks/shop-grid/shop-grid.css);
-@import url(../blocks/places/places.css);
-@import url(../blocks/video/video.css);
 @import url(../blocks/privacy-policy/privacy-policy.css);
 @import url(../blocks/update/update.css);
 .page {
