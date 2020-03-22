@@ -13,10 +13,14 @@
 
 .content-area {
     max-width: 100%;
-    /*min-width: 320px;*/
+    min-width: 320px;
     margin: 0 auto;
     font-family: 'Inter', Arial, sans-serif;
     color: #000;
+}
+
+.main {
+    min-height: calc(100vh - 60px - 141px);
 }
 
 
