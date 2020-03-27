@@ -14,14 +14,14 @@
 }
 
 .privacy-policy__container {
-    display: flex;
-    /*grid-template-columns: 286px 286px 286px;
-    grid-template-rows: 286px 286px;*/
-    grid-gap: 25px;
+    /*display: flex;
+    grid-template-columns: 286px 286px 286px;
+    grid-template-rows: 286px 286px;
+    grid-gap: 25px;*/
     margin: 0 auto 90px;
     max-width: 908px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /*flex-wrap: wrap;
+    justify-content: space-between;*/
 }
 
 .privacy-policy__subtitle {
@@ -55,4 +55,14 @@
 
 .privacy-policy__indents {
     padding-left: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+    .privacy-policy__container {
+        margin: 0 10px 90px;
+        max-width: 908px;
+    }
+    .privacy-policy__indents {
+        padding-left: 0px;
+    }
 }
